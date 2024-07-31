@@ -1,0 +1,22 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+/* Global */
+*{
+    font-family: Cooper;
+}
+
+.app-main{
+    height: 100vh;
+    
+
+    /* layout */
+    display: grid;
+    place-items: center;
+
+    @import './home.scss';
+    @import './todolist.scss';
+}
